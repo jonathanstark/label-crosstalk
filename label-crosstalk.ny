@@ -17,8 +17,11 @@
 ;; Pass 2 computes the second track's profile, compares, and
 ;; returns labels marking overlap regions.
 
+;control text "Audio quieter than this is treated as silence."
 ;control threshold "Silence threshold (dB)" float-text "dB" -40 -80 0
+;control text "Overlaps shorter than this are ignored."
 ;control min-duration "Minimum overlap (ms)" float-text "ms" 750 0 5000
+;control text "Size of each analysis chunk. Smaller = more precise but slower."
 ;control window-ms "Analysis window (ms)" float-text "ms" 50 10 500
 
 ;; Convert dB to linear
