@@ -33,6 +33,16 @@ Under the hood, it computes an RMS energy profile for each track, finds frames w
 
 The defaults work well for most podcast recordings. If you're getting too many false positives, raise the silence threshold (e.g., -35 dB) or increase the minimum overlap.
 
+## 3+ Speaker Recordings
+
+The plugin works on exactly 2 tracks at a time. For recordings with more than 2 speakers (e.g., two co-hosts + a guest), run it multiple times:
+
+1. Select tracks 1 and 2, run the plugin
+2. Select tracks 1 and 3, run it again
+3. Select tracks 2 and 3, run it again
+
+You'll get a separate label track for each pair, which makes it easy to see exactly who's talking over whom.
+
 ## Requirements
 
 - Audacity 3.x
