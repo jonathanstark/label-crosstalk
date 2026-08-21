@@ -21,8 +21,7 @@ Under the hood, it computes an RMS energy profile for each track, finds frames w
    - **Windows:** `C:\Users\<you>\AppData\Roaming\audacity\Plug-Ins\`
    - **Linux:** `~/.audacity-data/Plug-Ins/`
 3. Restart Audacity
-4. Go to **Tools → Nyquist Plugin Installer** (or just run it — Audacity 3.x auto-detects new `.ny` files)
-5. The plugin appears under **Analyze → Label Crosstalk...**
+4. The plugin appears under **Analyze → Label Crosstalk...**
 
 ## Settings
 
