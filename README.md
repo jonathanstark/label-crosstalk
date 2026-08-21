@@ -28,7 +28,7 @@ Under the hood, it computes an RMS energy profile for each track, finds frames w
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | Silence threshold | -40 dB | Audio below this level is considered silence |
-| Minimum overlap | 100 ms | Ignore overlaps shorter than this |
+| Minimum overlap | 750 ms | Ignore overlaps shorter than this |
 | Analysis window | 50 ms | Size of each analysis frame (rarely needs changing) |
 
 The defaults work well for most podcast recordings. If you're getting too many false positives, raise the silence threshold (e.g., -35 dB) or increase the minimum overlap.

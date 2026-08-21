@@ -18,7 +18,7 @@
 ;; returns labels marking overlap regions.
 
 ;control threshold "Silence threshold (dB)" float-text "dB" -40 -80 0
-;control min-duration "Minimum overlap (ms)" float-text "ms" 100 0 5000
+;control min-duration "Minimum overlap (ms)" float-text "ms" 750 0 5000
 ;control window-ms "Analysis window (ms)" float-text "ms" 50 10 500
 
 ;; Convert dB to linear
